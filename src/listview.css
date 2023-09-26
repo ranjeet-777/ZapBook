@@ -1,0 +1,57 @@
+.note{
+    background-color: #961df8;
+    padding: 10px;
+    max-height: 300px;
+    overflow:auto;
+}
+.fa-trash-alt:hover{
+  color:rgb(250, 60, 34);
+}
+.fa-edit:hover{
+    color: rgb(21, 122, 1);
+}
+.fa-share-square:hover{
+ color:blue;
+}
+.descriptions{
+    border-width: 1px;
+    border-color: black;
+    border-style:dashed;
+}
+.important , .Important{
+    background-color: rgba(31, 228, 13, 0.616);
+    box-shadow: 0px 0px 20px 1px rgba(16, 175, 2, 0.616);
+}
+.Todo{
+    background-color: rgba(228, 38, 13, 0.616);
+    box-shadow: 0px 0px 20px 1px rgba(180, 21, 0, 0.616);
+}
+.List{
+    background-color: rgba(14, 109, 218, 0.616);
+    box-shadow: 0px 0px 20px 3px rgba(0, 72, 155, 0.616);
+}
+/* !confirmation badge css */
+.cf_body{
+    position:absolute;
+    background-color: rgba(245, 245, 245, 0.863);
+    margin-right: 20px;
+    border-radius: 10px;
+    top: 80px;
+    right: 0;
+    /* backdrop-filter: blur(20px); */
+    z-index: 222;
+    height: 80px;
+    width: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: #e91818c9;
+    border-left-width: 5px;
+}
+/* !tag css */
+.tag{
+    transform: translateY(-50%);
+    font-size: small;
+    background-color: #a180f7;
+    height: auto;
+    width: fit-content;
+}

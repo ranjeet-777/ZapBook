@@ -1,0 +1,9 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background:url("./assets/images/back.svg");
+  background-blend-mode:color-burn;
+  background-size: cover;
+}

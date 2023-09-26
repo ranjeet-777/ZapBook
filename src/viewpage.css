@@ -1,0 +1,92 @@
+/* .important .fa-plus, .Todo .fa-plus, .List .fa-plus{
+      transform: rotateZ(45deg);
+  } */
+/* .important::before{
+    content: "Important";
+}
+.Todo::before{
+    content: "Todo";
+}
+.List::before{
+    content: "List";
+} */
+
+.title{
+    max-width: 50%;
+    overflow: hidden;
+    padding: 1px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    border-radius: 8px;
+}
+/* 
+.title_tag:after{
+        display: inline-block;
+}
+.title_tag {
+    position: relative;
+    display:block;
+    width:fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+.tagss {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.884);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+.title_tag:hover .tagss {
+    display: block;
+  } */
+  .tagu{
+      min-width: 10px;
+      max-width: 100px;
+      max-height: 20px;
+      overflow: hidden;
+  }
+.area{
+    height:fit-content;
+}
+.txtarea{
+    height:50vh;
+}
+.btn{
+    padding: 3px;
+    
+}
+.confirm{
+     border-width: 1px;
+     border-color: rgb(37, 223, 0);
+     transition: all 0.25s ease;
+     width: 100px;
+     font-weight: bold;
+}
+.confirm:hover{
+    color: white;
+    background-color: rgb(37, 223, 0);
+}
+.confirm:disabled{
+    border-color: grey;
+}
+.cancel{
+    border-width: 1px;
+     border-color: rgb(250, 60, 34);
+     width: 100px;
+     font-weight: bold;
+     transition: all 0.25s ease;
+}
+.cancel:hover{
+    color: white;
+    background-color: rgb(250, 60, 34);
+}
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
